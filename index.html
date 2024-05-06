@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>macaron_shop_main</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <section class="top__menu">
+            <div class="container">
+                <div class="top__menu-box">
+                    <button class="top__menu-left"><svg width="7" height="10" viewBox="0 0 7 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M5.81757 10L7 8.83333L3.11486 5L7 1.16667L5.81757 0L0.75 5L5.81757 10Z" fill="#292929" fill-opacity="0.8" />
+                    </svg></button>
+
+                    <div class="top__menu-text-container">
+                        <div class="top__menu-img-box"> <img src="images/svg/100per.svg" alt="image" class="top__menu-img"></div>
+                        <p class="top__menu-text">МИНДАЛЬНАЯ МУКА И НАТУРАЛЬНЫЕ ИНГРЕДИЕНТЫ</p>
+                    </div>
+
+                    <button class="top__menu-right"><svg width="7" height="10" viewBox="0 0 7 10" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M1.18243 0L0 1.16667L3.88514 5L0 8.83333L1.18243 10L6.25 5L1.18243 0Z" fill="#292929" fill-opacity="0.8" />
+                        </svg></button>
+                </div>
+            </div>
+        </section>
+
+        <section class="nav__bar">
+            <div class="container">
+                <div class="nav__box">
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__items">Гарантия свежести</li>
+                        <li class="nav__items">Доставка и оплата</li>
+                        <li class="nav__items">Оптовые поставки</li>
+                        <li class="nav__items">Контакты</li>
+                    </ul>
+                </nav>
+
+                <ul class="nav__contacts">
+                    <li class="nav__contacts-items">
+                        <img src="images/svg/headerLocation.svg" alt="location icon" class="nav__contacts-img">
+                        Санкт-Петербург
+                        <button class="nav__contacts-location"><svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M8 1.44595L7.06667 0.5L4 3.60811L0.933334 0.5L4.35489e-07 1.44595L4 5.5L8 1.44595Z" fill="#292929" />
+                        </svg></button>
+
+                        <div class="more__location-box  hidden"></div>
+                    </li>
+                    <li class="nav__contacts-items"><a href="tel:88123098288"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16.1826 20.9826H8.81739C7.86087 20.9826 7 20.2174 7 19.1652V4.81739C7 3.86087 7.76522 3 8.81739 3H16.1826C17.1391 3 18 3.76522 18 4.81739V19.1652C18 20.1217 17.1391 20.9826 16.1826 20.9826Z" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M8.72168 17.3477H16.2782" stroke="black" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M12.3566 19.8347C12.7264 19.8347 13.0261 19.535 13.0261 19.1652C13.0261 18.7954 12.7264 18.4956 12.3566 18.4956C11.9868 18.4956 11.687 18.7954 11.687 19.1652C11.687 19.535 11.9868 19.8347 12.3566 19.8347Z" fill="black" />
+                    </svg><p>8 812 309-82-88</p></a></li>
+                    <li class="nav__contacts-items cart__box">
+                        <img src="images/svg/cart.svg" alt="cart" class="cart">
+                        <div class="cart__counter"><p class="counter__number">4</p></div>
+                        В корзине (<p class="counter">4</p> <span class="goods">товара</span>)
+                    </li>
+                </ul>
+
+                <ul class="soc__network">
+                    <li class="soc__network-items"><a href="#"><img src="images/svg/telegram.svg" alt="telegram" class="soc__telegram-img"></a></li>
+
+                    <li class="soc__network-items"><a href="#"><img src="images/svg/vk.svg" alt="vkontakte" class="soc__vk-img"></a></li>
+
+                    <li class="soc__network-items"><a href="#"><img src="images/svg/ok.svg" alt="odnoklassniki" class="soc__ok-img"></a></li>
+                </ul>
+            </div>
+        </div>
+        </section>
+
+
+        <section class="menu__header">
+           <div class="container">
+                <ul class="menu__header-list">
+                    <li class="menu__heade-items">СЛАДКИЕ ДНИ <div class="percent">%</div></li>
+                    <li class="menu__heade-items">подарочные наборы <svg width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 1.44595L7.06667 0.5L4 3.60811L0.933334 0.5L4.35489e-07 1.44595L4 5.5L8 1.44595Z" fill="#292929" />
+                    </svg> 
+    
+                    <div class="gift__menu hidden"></div>
+    
+                    </li>
+    
+                    <li class="menu__heade-items">Собрать набор</li>
+    
+                    <li class="menu__heade-items"><a href="#"><img src="images/logo.png" alt="logo" class="logo__header"></a></li>
+
+                    <li class="menu__heade-items">Создать дизайн</li>
+
+                    <li class="menu__heade-items">КОМПАНИЯМ <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 0.945946L7.06667 -4.07973e-08L4 3.10811L0.933334 -3.08894e-07L4.35489e-07 0.945946L4 5L8 0.945946Z" fill="#292929" />
+                    </svg>
+
+                    <div class="company__menu hidden"></div>
+                    </li>
+
+                    <li class="menu__heade-items">ВЕСЬ КАТАЛОГ <svg width="8" height="5" viewBox="0 0 8 5" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M8 0.945946L7.06667 -4.07973e-08L4 3.10811L0.933334 -3.08894e-07L4.35489e-07 0.945946L4 5L8 0.945946Z" fill="#292929" />
+                    </svg>
+                    
+                        <div class="all__catalog-menu hidden"></div>
+                    </li>
+                </ul>
+            </div>
+            </section>
+    </header>
+    <main>
+<section class="banner">
+
+<img src="images/svg/Ellipse-pink-big.svg" alt="" class="pink">
+<img src="images/svg/Ellipse-left-blue.svg" alt="" class="blue">
+<img src="images/svg/Ellipse-left-mid.svg" alt="" class="light__blue">
+<img src="images/svg/Ellipse-big.svg" alt="" class="big">
+<img src="images/svg/Ellipse-green.svg" alt="" class="green">
+<img src="images/svg/Ellipse_yellow.svg" alt="" class="yellow">
+<img src="images/svg/Ellipse-small.svg" alt="" class="small">
+
+<img src="images/heart.png" alt="heart with macarons" class="heart">
+
+<img src="images/nut1.png" alt="nut" class="nut1">
+<img src="images/nut2.png" alt="nut" class="nut2">
+<img src="images/nut3.png" alt="nut" class="nut3">
+<img src="images/nut4.png" alt="nut" class="nut4">
+<img src="images/nut5.png" alt="nut" class="nut5">
+<img src="images/nut6.png" alt="nut" class="nut6">
+
+<img src="images/mac1.png" alt="macaron" class="mac1">
+<img src="images/mac2.png" alt="macaron" class="mac2">
+<img src="images/mac3.png" alt="macaron" class="mac3">
+<img src="images/mac4.png" alt="macaron" class="mac4">
+<img src="images/mac5.png" alt="macaron" class="mac5">
+
+<img src="images/leaf1.png" alt="leaf" class="leaf1">
+<img src="images/leaf2.png" alt="leaf" class="leaf2">
+
+<div class="banner__text">
+    <h3 class="shopname">Macaronshop</h3>
+    <div class="year"><h5></h5>since 2013<h5></h5></div>
+    <h1 class="title">Настоящая любовь</h1>
+    <p class="description">Пирожные макарон и другие десерты из натуральных ингредиентов, приготовленные с любовью</p>
+</div>
+</section>
+
+<div class="container">
+<section class="products">
+        <div class="product__box ready__product">
+            <img src="images/svg/icon1.svg" alt="icon" class="product__icon">
+            <h3 class="product__title">Готовые наборы <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.692634 4.34758H13.6354L10.5471 1.20355C10.2765 0.928296 10.2765 0.481779 10.5471 0.206564C10.8176 -0.0688547 11.2562 -0.0688547 11.5264 0.206564L15.7971 4.55406C16.0676 4.82931 16.0676 5.27587 15.7971 5.55105L11.5264 9.89874C11.3912 10.0365 11.2139 10.1053 11.0367 10.1053C10.8595 10.1053 10.6823 10.0365 10.5471 9.89874C10.2765 9.62349 10.2765 9.17697 10.5471 8.90179L13.6354 5.75761H0.692634C0.310157 5.75761 0 5.44192 0 5.05257C0 4.66322 0.310117 4.34758 0.692634 4.34758Z" fill="black" />
+            </svg></h3>
+            <h5 class="product__description">Готовые наборы со скидкой.<br> Вы можете подобрать набор на подходящий случай.</h5>
+        </div>
+        <div class="product__box make__self">
+            <img src="images/svg/icon2.svg" alt="icon" class="product__icon">
+            <h3 class="product__title">Собрать свой набор <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.692634 4.34758H13.6354L10.5471 1.20355C10.2765 0.928296 10.2765 0.481779 10.5471 0.206564C10.8176 -0.0688547 11.2562 -0.0688547 11.5264 0.206564L15.7971 4.55406C16.0676 4.82931 16.0676 5.27587 15.7971 5.55105L11.5264 9.89874C11.3912 10.0365 11.2139 10.1053 11.0367 10.1053C10.8595 10.1053 10.6823 10.0365 10.5471 9.89874C10.2765 9.62349 10.2765 9.17697 10.5471 8.90179L13.6354 5.75761H0.692634C0.310157 5.75761 0 5.44192 0 5.05257C0 4.66322 0.310117 4.34758 0.692634 4.34758Z" fill="black" />
+            </svg></h3>
+            <h5 class="product__description">Выбрать количество макарун, и выбрать вкусы</h5>
+        </div>
+        <div class="product__box with__stemp">
+            <img src="images/svg/icon3.svg" alt="icon" class="product__icon">
+            <h3 class="product__title">Набор с индивидуальной печатью <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.692634 4.34758H13.6354L10.5471 1.20355C10.2765 0.928296 10.2765 0.481779 10.5471 0.206564C10.8176 -0.0688547 11.2562 -0.0688547 11.5264 0.206564L15.7971 4.55406C16.0676 4.82931 16.0676 5.27587 15.7971 5.55105L11.5264 9.89874C11.3912 10.0365 11.2139 10.1053 11.0367 10.1053C10.8595 10.1053 10.6823 10.0365 10.5471 9.89874C10.2765 9.62349 10.2765 9.17697 10.5471 8.90179L13.6354 5.75761H0.692634C0.310157 5.75761 0 5.44192 0 5.05257C0 4.66322 0.310117 4.34758 0.692634 4.34758Z" fill="black" />
+            </svg></h3>
+            <h5 class="product__description">Собрать набор макарон с уникальным дизайном. </h5>
+        </div>
+        <div class="product__box wedding">
+            <img src="images/svg/icon4.svg" alt="icon" class="product__icon">
+            <h3 class="product__title">Свадебные предложения <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.692634 4.34758H13.6354L10.5471 1.20355C10.2765 0.928296 10.2765 0.481779 10.5471 0.206564C10.8176 -0.0688547 11.2562 -0.0688547 11.5264 0.206564L15.7971 4.55406C16.0676 4.82931 16.0676 5.27587 15.7971 5.55105L11.5264 9.89874C11.3912 10.0365 11.2139 10.1053 11.0367 10.1053C10.8595 10.1053 10.6823 10.0365 10.5471 9.89874C10.2765 9.62349 10.2765 9.17697 10.5471 8.90179L13.6354 5.75761H0.692634C0.310157 5.75761 0 5.44192 0 5.05257C0 4.66322 0.310117 4.34758 0.692634 4.34758Z" fill="black" />
+            </svg></h3>
+            <h5 class="product__description">Нежные пирожные макаронс с разными вкусами для<br> украшения вашего свадебного торжества</h5>
+        </div>
+        <div class="product__box corporate">
+            <img src="images/svg/icon5.svg" alt="icon" class="product__icon">
+            <h3 class="product__title">Корпоративные подарки <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.692634 4.34758H13.6354L10.5471 1.20355C10.2765 0.928296 10.2765 0.481779 10.5471 0.206564C10.8176 -0.0688547 11.2562 -0.0688547 11.5264 0.206564L15.7971 4.55406C16.0676 4.82931 16.0676 5.27587 15.7971 5.55105L11.5264 9.89874C11.3912 10.0365 11.2139 10.1053 11.0367 10.1053C10.8595 10.1053 10.6823 10.0365 10.5471 9.89874C10.2765 9.62349 10.2765 9.17697 10.5471 8.90179L13.6354 5.75761H0.692634C0.310157 5.75761 0 5.44192 0 5.05257C0 4.66322 0.310117 4.34758 0.692634 4.34758Z" fill="black" />
+            </svg></h3>
+            <h5 class="product__description">От 85 руб за шт. С уникальным дизайном.<br> Приятный комплимент для коллег и партнеров</h5>
+        </div>
+        <div class="product__box wholesale">
+            <img src="images/svg/icon6.svg" alt="icon" class="product__icon">
+            <h3 class="product__title">Оптовые поставки <svg width="16" height="11" viewBox="0 0 16 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.692634 4.34758H13.6354L10.5471 1.20355C10.2765 0.928296 10.2765 0.481779 10.5471 0.206564C10.8176 -0.0688547 11.2562 -0.0688547 11.5264 0.206564L15.7971 4.55406C16.0676 4.82931 16.0676 5.27587 15.7971 5.55105L11.5264 9.89874C11.3912 10.0365 11.2139 10.1053 11.0367 10.1053C10.8595 10.1053 10.6823 10.0365 10.5471 9.89874C10.2765 9.62349 10.2765 9.17697 10.5471 8.90179L13.6354 5.75761H0.692634C0.310157 5.75761 0 5.44192 0 5.05257C0 4.66322 0.310117 4.34758 0.692634 4.34758Z" fill="black" />
+            </svg></h3>
+            <h5 class="product__description">Предложение для кофеен, кафе, отелей и т.д.<br>
+                Посмотрите условия сотрудничества и отзывы.</h5>
+        </div>
+</section>
+
+<h2 class="chapter">Акции</h2>
+
+<section class="promoution__block">
+        <div class="promoution">
+            <div class="promoution__box">
+                <img src="images/promoution1.png" alt="image" class="promoution__img">
+                <div class="promoution__lable">
+                    <p class="promoution__lable-text box-blue">БЕСПЛАТНАЯ ДОСТАВКА</p>
+                    <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 0H0V20H16L9 10L16 0Z" fill="#8CC4EC" />
+                    </svg>
+                </div>
+                <div class="promoution__lable-text-box box-blue">
+                    <p class="promoution__lable-description">
+                        По СПб в районе КАД –  от <span>3000</span>₽<br> По МСК – от <span>5000</span>₽
+                    </p>
+                </div>
+            </div>
+
+            <div class="promoution__box">
+                <img src="images/promoution2.png" alt="image" class="promoution__img">
+                <div class="promoution__lable">
+                    <p class="promoution__lable-text box__red">НОВИНКА</p>
+                    <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 0H0V20H16L9 10L16 0Z" fill="#FF4D6D" />
+                    </svg>
+                </div>
+                <div class="promoution__lable-text-box box__red">
+                    <p class="promoution__lable-description">
+                        Шоколадное пирожное картошка на основе бисквита!
+                    </p>
+                </div>
+            </div>
+
+            <div class="promoution__box">
+                <img src="images/promoution3.png" alt="image" class="promoution__img">
+
+                <div class="promoution__lable">
+                    <p class="promoution__lable-text box__red">НОВИНКА</p>
+                    <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 0H0V20H16L9 10L16 0Z" fill="#FF4D6D" />
+                    </svg>
+                </div>
+                <div class="promoution__lable-text-box box__red">
+                    <p class="promoution__lable-description">
+                        Аппетитные конфеты на основе миндального печенья и крема
+                    </p>
+                </div>
+            </div>
+
+            <div class="promoution__box">
+                <img src="images/promoution4.png" alt="image" class="promoution__img">
+
+                <div class="promoution__lable">
+                    <p class="promoution__lable-text box__red">СЛАДКАЯ НОВИНКА</p>
+                    <svg width="16" height="20" viewBox="0 0 16 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M16 0H0V20H16L9 10L16 0Z" fill="#FF4D6D" />
+                    </svg>
+                </div>
+                <div class="promoution__lable-text-box box__red">
+                    <p class="promoution__lable-description">
+                        Карамель на палочкеиз натуральных<br> ингредиентов
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="indicate__box">
+            <div class="indicate__items active__indicator"></div>
+            <div class="indicate__items"></div>
+            <div class="indicate__items"></div>
+        </div>
+
+</section>
+
+<h2 class="chapter">Ближайшие праздники</h2>
+
+<section class="celebrate">
+
+        
+        <div class="cel__box">
+            <img src="images/svg/hat.svg" alt="hat" class="hat">
+            <img src="images/svg/mac11.svg" alt="macaroon" class="cel__mac">
+            <p class="cel__text first">Скоро<br> День рождения<br> близкого человека </p>
+        </div>
+
+        <div class="cel__box"><img src="images/svg/mac12.svg" alt="macaroon" class="cel__mac">
+        <p class="cel__text">1 января<br>Новый Год<br>2021</p>
+        </div>
+
+        <div class="cel__box"><img src="images/svg/mac13.svg" alt="macaroon" class="cel__mac">
+            <p class="cel__text">14 февраля<br>День Святого<br>Валентина</p>
+        </div>
+
+        <div class="cel__box"><img src="images/svg/mac14.svg" alt="macaroon" class="cel__mac">
+            <p class="cel__text">23 февраля<br>День Защитника<br>Отечества</p>
+        </div>
+
+        <div class="cel__box"><img src="images/svg/mac15.svg" alt="macaroon" class="cel__mac">
+            <p class="cel__text">8 марта<br>Международный<br>Женский День</p>
+        </div>
+
+        <div class="cel__box"><img src="images/svg/mac16.svg" alt="macaroon" class="cel__mac">
+            <p class="cel__text">9 марта<br>День Сурка</p>
+        </div>
+        <div class="dots"></div>
+</section>
+
+<h2 class="chapter">Популярные наборы</h2>
+
+<section class="pop__kit">
+    <ul class="pop__kit-list">
+        <li class="pop__kit-items">
+            <img src="images/1.png" alt="image" class="kit__img">
+            <h3 class="kit__title">Сердце</h3>
+            <p class="kit__description">24 штуки в коробке в виде сердца.<br>
+                Ассорти из 6 вкусов </p>
+                <div class="line__horz"></div>
+            <div class="price__box">
+                <h3 class="price"><span class="price__value">2800</span>руб</h3>
+                <div class="line__vert"></div>
+                <button class="to__cart-btn">
+                    <svg width="15" height="21" viewBox="0 0 15 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.2911 5.37085H1V20H14.2911V5.37085Z" stroke="black" stroke-width="1.4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M4.12207 7.15493V3.40845C4.12207 2.07042 5.10329 1 6.26292 1H9.02818C10.1878 1 11.169 2.07042 11.169 3.40845V7.15493" stroke="black" stroke-width="1.4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                      <p>В корзину</p>
+                </button>
+            </div>
+        </li>
+
+        <li class="pop__kit-items">
+            <img src="images/2.png" alt="image" class="kit__img">
+            <h3 class="kit__title">СКрасота спасёт мир </h3>
+            <p class="kit__description">Набор 16 шт. Вкусы: клубника - базилик, кокос, голубой сыр, пармезан </p>
+                <div class="line__horz"></div>
+            <div class="price__box">
+                <h3 class="price"><span class="price__value">750</span>руб</h3>
+                <div class="line__vert"></div>
+                <button class="to__cart-btn">
+                    <svg width="15" height="21" viewBox="0 0 15 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.2911 5.37085H1V20H14.2911V5.37085Z" stroke="black" stroke-width="1.4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M4.12207 7.15493V3.40845C4.12207 2.07042 5.10329 1 6.26292 1H9.02818C10.1878 1 11.169 2.07042 11.169 3.40845V7.15493" stroke="black" stroke-width="1.4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                      <p>В корзину</p>
+                </button>
+            </div>
+        </li>
+
+        <li class="pop__kit-items">
+            <img src="images/3.png" alt="image" class="kit__img">
+            <h3 class="kit__title">Круглый набор</h3>
+            <p class="kit__description">40 макаронс в круглой коробке с персональной надписью</p>
+                <div class="line__horz"></div>
+            <div class="price__box">
+                <h3 class="price"><span class="price__value">3900</span>руб</h3>
+                <div class="line__vert"></div>
+                <button class="to__cart-btn">
+                    <svg width="15" height="21" viewBox="0 0 15 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.2911 5.37085H1V20H14.2911V5.37085Z" stroke="black" stroke-width="1.4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M4.12207 7.15493V3.40845C4.12207 2.07042 5.10329 1 6.26292 1H9.02818C10.1878 1 11.169 2.07042 11.169 3.40845V7.15493" stroke="black" stroke-width="1.4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                      <p>В корзину</p>
+                </button>
+            </div>
+        </li>
+
+        <li class="pop__kit-items">
+            <img src="images/4.png" alt="image" class="kit__img">
+            <h3 class="kit__title">Набор на 9</h3>
+            <p class="kit__description">Набор из 9 штук в квадратной коробке. Вкусы: шоколад, фисташка, вишня</p>
+                <div class="line__horz"></div>
+            <div class="price__box">
+                <h3 class="price"><span class="price__value">950</span>руб</h3>
+                <div class="line__vert"></div>
+                <button class="to__cart-btn">
+                    <svg width="15" height="21" viewBox="0 0 15 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.2911 5.37085H1V20H14.2911V5.37085Z" stroke="black" stroke-width="1.4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M4.12207 7.15493V3.40845C4.12207 2.07042 5.10329 1 6.26292 1H9.02818C10.1878 1 11.169 2.07042 11.169 3.40845V7.15493" stroke="black" stroke-width="1.4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                      <p>В корзину</p>
+                </button>
+            </div>
+        </li>
+
+        <li class="pop__kit-items">
+            <img src="images/5.png" alt="image" class="kit__img">
+            <h3 class="kit__title">Набор на 16</h3>
+            <p class="kit__description">Набор 16 шт. Вкусы: соленая карамель, голубой<br> сыр, пармезан, шоколад </p>
+                <div class="line__horz"></div>
+            <div class="price__box">
+                <h3 class="price"><span class="price__value">1500</span>руб</h3>
+                <div class="line__vert"></div>
+                <button class="to__cart-btn">
+                    <svg width="15" height="21" viewBox="0 0 15 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.2911 5.37085H1V20H14.2911V5.37085Z" stroke="black" stroke-width="1.4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M4.12207 7.15493V3.40845C4.12207 2.07042 5.10329 1 6.26292 1H9.02818C10.1878 1 11.169 2.07042 11.169 3.40845V7.15493" stroke="black" stroke-width="1.4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                      <p>В корзину</p>
+                </button>
+            </div>
+        </li>
+
+        <li class="pop__kit-items">
+            <img src="images/6.png" alt="image" class="kit__img">
+            <h3 class="kit__title">Сердце</h3>
+            <p class="kit__description">24 штуки в коробке в виде сердца.<br>
+                Ассорти из 6 вкусов </p>
+                <div class="line__horz"></div>
+            <div class="price__box">
+                <h3 class="price"><span class="price__value">2500</span>руб</h3>
+                <div class="line__vert"></div>
+                <button class="to__cart-btn">
+                    <svg width="15" height="21" viewBox="0 0 15 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14.2911 5.37085H1V20H14.2911V5.37085Z" stroke="black" stroke-width="1.4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                        <path d="M4.12207 7.15493V3.40845C4.12207 2.07042 5.10329 1 6.26292 1H9.02818C10.1878 1 11.169 2.07042 11.169 3.40845V7.15493" stroke="black" stroke-width="1.4" stroke-miterlimit="10" stroke-linecap="round" stroke-linejoin="round" />
+                      </svg>
+                      <p>В корзину</p>
+                </button>
+            </div>
+        </li>
+    </ul>
+    <button class="show__all">Все праздничные наборы</button>
+</section>
+
+<h2 class="chapter">Новости</h2>
+
+<section class="news">
+    <ul class="news__list">
+        <li class="news__items">
+            <img src="images/news1.png" alt="image" class="news__img">
+            <p class="news__date">25.02.2023</p>
+            <h3 class="news__title">Скоро главный праздник весны!</h3>
+            <p class="news__description">Девушки любят, когда вкусно, красиво и<br> натурально. Смотрите больше наборов с<br> десертами ручной работы</p>
+        </li>
+
+        <li class="news__items">
+            <img src="images/news2.png" alt="image" class="news__img">
+            <p class="news__date">17.02.2023</p>
+            <h3 class="news__title">Конкурс на 23 февраля!</h3>
+            <p class="news__description">День Защитника Отечества уже совсем скоро! Порадуйте своего сладкоежку с помощью аппетитных наборов от МакаронШоп</p>
+        </li>
+
+        <li class="news__items">
+            <img src="images/news3.png" alt="image" class="news__img">
+            <p class="news__date">11.02.2023</p>
+            <h3 class="news__title">Экспресс-конкурс ко дню<br> Святого Валентина</h3>
+            <p class="news__description">Подарок уже через 2 дняДень всех влюблённых<br> не за горами. Расскажи о своих чувствах с<br> помощью сладкой валентинки от МакаронШоп</p>
+        </li>
+    </ul>
+    <div class="indicate__box">
+        <div class="indicate__items active__indicator"></div>
+        <div class="indicate__items"></div>
+        <div class="indicate__items"></div>
+    </div>
+    <button class="show__all">Все новости</button>
+</section>
+
+<h2 class="chapter">Мы обо всём позаботились</h2>
+
+<section class="care">
+
+    <ul class="care__list">
+        <li class="care__items">
+            <img src="images/care1.png" alt="image" class="care__img">
+            <h3 class="care__title">Лучшие ингрединты</h3>
+            <p class="care__description">Что-то про суперкачество, лучших поваров, свежесть и т.д.</p>
+        </li>
+
+        <li class="care__items">
+            <img src="images/care2.png" alt="image" class="care__img">
+            <h3 class="care__title">Упаковка</h3>
+            <p class="care__description">Что-то про суперкоробочки и бантики и бла бла бла</p>
+        </li>
+
+        <li class="care__items">
+            <img src="images/care3.png" alt="image" class="care__img">
+            <h3 class="care__title">Получение в день заказа</h3>
+            <p class="care__description">В день заказа доставка курьером или самовывоз</p>
+        </li>
+
+        <li class="care__items">
+            <img src="images/care4.png" alt="image" class="care__img">
+            <h3 class="care__title">Анонимная доставка</h3>
+            <p class="care__description">Можем преподнести Ваш заказ как анонимный подарок</p>
+        </li>
+    </ul>
+
+</section>
+
+</div>
+    </main>
+    <footer>
+        <div class="container">
+            <div class="footer__box">
+                <div class="left__side">
+                    <div class="left__side-top">
+                        <ul class="left__side-top-list">
+                            <li class="left__side-top-items">
+                                <img src="images/svg/heart.svg" alt="icon" class="left__img">
+                                <p class="left__top-text">Готовим вручную<br>и с любовью</p>
+                            </li>
+                            
+                            <li class="left__side-top-items">
+                                <img src="images/svg/delivery_footer.svg" alt="icon" class="left__img">
+                                <p class="left__top-text">Готовим вручную<br>и с любовью</p>
+                            </li>
+
+                            <li class="left__side-top-items">
+                                <img src="images/svg/seeds_footer.png" alt="icon" class="left__img">
+                                <p class="left__top-text">Готовим вручную<br>и с любовью</p>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="left__side-bottom"></div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js.js"></script>
+</body>
+</html>
