@@ -1,8 +1,19 @@
 {
-  "users": [],
+  "users": [
+    {
+      "id": "1346",
+      "email": "alibek@mail.ru",
+      "password": "123456"
+    },
+    {
+      "id": "ac55",
+      "email": "marlen",
+      "password": "123456"
+    }
+  ],
   "products": [
     {
-      "id": 1,
+      "id": "1",
       "title": "test"
     }
   ]
